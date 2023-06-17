@@ -2,35 +2,74 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+    font-family: Arial, sans-serif;
+}
+
+header {
     background-color: green;
     padding: 10px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin-right: 10px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-  }
-  
-  .products {
+}
+
+.products {
     margin-top: 20px;
     padding: 20px;
     text-align: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     color: green;
-  }
+}
+
+/* Estilo do restante da página */
+
+.welcome-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.products-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    margin-bottom: 5px;
+}
+
+.price {
+    font-weight: bold;
+}
