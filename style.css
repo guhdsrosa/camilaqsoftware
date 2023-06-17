@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: green;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .products {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: green;
+  }
